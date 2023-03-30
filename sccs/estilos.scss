@@ -1,0 +1,61 @@
+*
+{
+margin: 0%;
+padding: 0%;
+box-sizing:border-box;
+}
+@font-face { 
+    font-family: "Mystery Quest"; 
+    src: url("./fuentes/roboto.ttf"); 
+} 
+
+body
+{
+background-color:#5EBDB4;
+}
+/*sacar el subrallado*/
+a:link, a:visited
+{ text-decoration: none; 
+}
+
+/*calse de navegacion */
+.navegacion{
+    
+    text-align:center;
+    text-decoration: none;
+    font-size: 25px;
+    display: block;
+    }
+/*Calse de centar el logo*/
+.logo
+{
+display: block;
+margin:auto;
+position:sticky;
+}
+/*clase imegen estatica*/
+
+
+/*clase de footer*/
+.footer
+{
+    text-align: center;
+}
+/*Parafo de principal */
+.p{
+    font-family: "Mystery Quest",regular;
+    text-align: center;
+}
+/*clase titulos y sub titulos*/
+
+h1
+{
+    font-family: "Mystery Quest",italic;
+    text-align: center
+}
+h2
+{
+    font-family: "Mystery Quest",bolddltlic;
+    text-align: center
+}
+
