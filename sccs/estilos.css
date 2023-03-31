@@ -1,13 +1,10 @@
+/* variabbles*/
 * {
   margin: 0%;
   padding: 0%;
   box-sizing: border-box;
 }
 
-@font-face {
-  font-family: "Mystery Quest";
-  src: url("./fuentes/roboto.ttf");
-}
 body {
   background-color: #5EBDB4;
 }
@@ -32,7 +29,6 @@ a:link, a:visited {
   position: sticky;
 }
 
-/*clase imegen estatica*/
 /*clase de footer*/
 .footer {
   text-align: center;
@@ -44,7 +40,10 @@ a:link, a:visited {
   text-align: center;
 }
 
-/*clase titulos y sub titulos*/
+@font-face {
+  font-family: "Mystery Quest";
+  src: url("./fuentes/roboto.ttf");
+}
 h1 {
   font-family: "Mystery Quest", italic;
   text-align: center;

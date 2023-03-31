@@ -1,0 +1,21 @@
+/*sacar el subrallado*/
+a:link, a:visited
+{ 
+    text-decoration: none; 
+}
+
+/*calse de navegacion */
+.navegacion{
+    
+    text-align:center;
+    text-decoration: none;
+    font-size: 25px;
+    display: block;
+    }
+/*Calse de centar el logo*/
+.logo
+{
+display: block;
+margin:auto;
+position:sticky;
+}
