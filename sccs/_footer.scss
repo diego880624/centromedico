@@ -1,10 +1,11 @@
 /*clase de footer*/
 .footer
 {
-    text-align: center;
+    text-align: $texto-centrado;
 }
 /*Parafo de principal */
 .p{
     font-family: "Mystery Quest",regular;
-    text-align: center;
+    @extend .footer
+    
 }

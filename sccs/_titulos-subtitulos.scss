@@ -6,10 +6,11 @@
 h1
 {
     font-family: "Mystery Quest",italic;
-    text-align: center
+    text-align: $texto-centrado;
 }
 h2
 {
     font-family: "Mystery Quest",bolddltlic;
-    text-align: center
+    @extend  .h1;
+
 }
