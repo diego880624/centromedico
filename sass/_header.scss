@@ -4,18 +4,27 @@ a:link, a:visited
     text-decoration: none; 
 }
 
+.fondo-h
+{
+    background-color: $header-bg-color ;
+    /* otros estilos de CSS para el header */
+  }
 .navegacion{
     
     text-align: $texto-centrado;
     text-decoration: none;
     font-size: 25px;
+    
+}
     .logo
 {
+    float: left;
+
 display: block;
 margin:auto;
 position:sticky;
 }
-}
+
 
 
 

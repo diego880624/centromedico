@@ -8,21 +8,47 @@
         <meta name="keywords"  content=" centro medico , salud , eduacion  ,cholila, Historia">
         <title>Nosotros-Centro Médico CreceR</title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-        <link rel="stylesheet" href="../sccs/estilos.css">
+        <link rel="stylesheet" href="../sass/estilos.css">
     </head>
     </head>
     <body>      
-            <header>
-                <!--Navegacion Nosotros-->
-                    <nav class="navegacion">
-                        <img class="logo" src="../assets/img/Sin_título-1-removebg-preview.png"  alt="logo">
-                        <a  href="../index.html">inicio</a>
-                        <a  href="#">nosotros</a>
-                        <a  href="./Servicios.html">servicios</a>
-                        <a href="./Galeria.html">galeria</a>
-                        <a href="./Contacto.html">contacto</a>
-                    </nav>
-            </header>
+        <header class="sticky-top">
+            <nav class="navbar slide navbar-expand-lg navbar-light colorNav">
+                <div class="container-fluid">
+                        <a class="navbar-brand" href="../index.html">
+                            <img src="../assets/img/Sin_título-1-removebg-preview.png" alt="centro-medico" width="500" height="200">
+                        </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                        </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-around w-100">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                                    </li>
+                                <li class="nav-item">
+                                    <a class="nav-link " href="#">Nosotros</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        servicios
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <li><a class="dropdown-item" href="./servicios-salud.html">servicios-salud</a></li>
+                                        <li><a class="dropdown-item" href="#">servicios-educacion</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link " href="./galeria.html">galeria</a>
+                                </li> 
+                                <li class="nav-item">
+                                    <a class="nav-link" href="./contacto.html">Contacto</a>
+                                </li>
+                        </ul>
+                    </div>
+                </div>
+        </nav>
+    </header> 
             <main class="container">
                 <section class="row">
                     <div class="col md-6">
@@ -30,13 +56,21 @@
                         <P class="p float-left">
                             
                             El centro medico CrecerR cuenta con profecioneles de la salud <br>
+                            
                             y terapias alternativas que se invlolucran con sus pacientes con <br>
+                            
                             resposabilidad , compromiso , empatia y dedicacion.<br>
+                            <br>
                             Uno de los objetivos mas importantes de  CerceR es<br>
+                            
                             que las personas que llegan al lugar sientan que son atendidad<br>
+                            
                             con calidez , amabilidad y vocacion.<br>
+                            <br>
                             Promover ka salud y brindar herramintas ara mejorar <br>
+                            
                             la calidad de vida es uno de los pilares<br>
+                            
                             fundamentales de nuestro centro.
                         </P>
 
@@ -56,9 +90,6 @@
                 </section>
 
             </main>
-                    <h2 class="p"> Encontrarnos en :</h2>
-                    
-                <iframe style="margin: 0 auto; display: block; border: 3px ; border-radius: 10px 10px 10px 10px; padding: 10px;"src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2941.3505030526917!2d-71.43842409999999!3d-42.5053589!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x961c693a7fe40971%3A0x47fdd3448e176062!2sCentro%20m%C3%A9dico-%20CreceR-%20Cholila!5e0!3m2!1ses-419!2sar!4v1676918348643!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             <footer class="footer" >
                 <p>Derechos revervados 2021</p>
                 <a href="https://m.facebook.com/profile.php?id=100083352640582&_rdr" target="_blank">
