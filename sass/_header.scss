@@ -4,11 +4,7 @@ a:link, a:visited
     text-decoration: none; 
 }
 
-.fondo-h
-{
-    background-color: $header-bg-color ;
-    /* otros estilos de CSS para el header */
-  }
+
 .navegacion{
     
     text-align: $texto-centrado;
@@ -24,6 +20,11 @@ display: block;
 margin:auto;
 position:sticky;
 }
+.color-header
+{
+    background-color:$color-fondo2; 
+}
+
 
 
 
