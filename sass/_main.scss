@@ -1,0 +1,18 @@
+.galeria{
+    width: 100%;
+    .carousel-item{
+        height: 70vh;
+        .carousel-item img{
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+}
+h1{
+text-align: map-get( $map-h1 ,  justify-texto );
+}
+
+
+
+
+

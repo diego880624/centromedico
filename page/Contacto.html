@@ -6,55 +6,61 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content=" esta pagina esta destina a el uso del formulario para sacar turno o atender cosultas">
         <meta name="keywords"  content=" centro medico , formlario , consulta , turnos ">
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="../assets/img/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="../assets/img/favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
         <title>Contacto-Centro Médico CreceR</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <link rel="stylesheet" href="../sass/estilos.css">
     </head>
     </head>
-    <body class="fondo">
-        <header class="sticky-top">
+    <body class="colorfondo-main">
+        <header class="sticky-top color-fondo-header-footer">
             <nav class="navbar slide navbar-expand-lg navbar-light colorNav ">
                 <div class="container-fluid">
                         <a class="navbar-brand" href="../index.html">
-                            <img src="../assets/img/Sin_título-1-removebg-preview.png" alt="centro-medico" width="500" height="200">
+                            <img src="../assets/img/logo.png" alt="centro-medico"width="175">
                         </a>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                         </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-around w-100">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-between w-100">
                                     <li class="nav-item">
-                                        <a class="nav-link active " aria-current="page" href="../index.html">Inicio</a>
+                                        <a class="nav-link text-white" aria-current="page" href="../index.html">Inicio</a>
                                     </li>
                                 <li class="nav-item">
-                                    <a class="nav-link " href="./nosotros.html">Nosotros</a>
+                                    <a class="nav-link text-white " href="./nosotros.html">Nosotros</a>
                                 </li>
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <a class="nav-link dropdown-toggle text-white " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                         servicios
                                     </a>
                                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                         <li><a class="dropdown-item" href="./servicios-salud.html">servicios-salud</a></li>
-                                        <li><a class="dropdown-item" href="#">servicios-educacion</a></li>
+                                        <li><a class="dropdown-item" href="./error404.html">servicios-educacion</a></li>
                                     </ul>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link " href="./galeria.html">galeria</a>
+                                    <a class="nav-link text-white " href="./galeria.html">galeria</a>
                                 </li> 
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Contacto</a>
+                                    <a class="nav-link text-white" href="#">Contacto</a>
                                 </li>
                         </ul>
                     </div>
                 </div>
         </nav>
     </header> 
-            <main class="container">
-                <section class="row">
-                    <h1 class="p"> Contacto y Ubicacíon <br>
+            <main class=" container ">
+                <section class="row  ">
+                    <h1 class="animate__animated animate__fadeInDown animate__slower  mt-2">
+                        Contacto y Ubicacíon <br>
                     </h1>
                     <div class="col col-md-6">
-                        <h2 class="p"> 
+                        <h2 class="p animate__animated animate__fadeInDown animate__slower  mt-2"> 
                             Para consulta o <br>
                             Confirmar turno <br>
                             
@@ -64,26 +70,29 @@
                                     
                             <div class="form-group">
                             <label for="nombre">Nombre:</label>
-                            <input type="text" class="form-control" id="nombre" placeholder="Ingresa tu nombre">
+                            <input type="text" class="form-control" id="nombre" required placeholder="Ingresa tu nombre">
                             </div>
                             <div class="form-group">
                             <label for="email">Correo electrónico:</label>
-                            <input type="email" class="form-control" id="email" placeholder="Ingresa tu correo electrónico">
+                            <input type="email" class="form-control" id="email"required placeholder="Ingresa tu correo electrónico">
                             </div>
                             <div class="form-group">
                                 <label for="telefono">Número de contacto:</label>
-                                <input type="tel" class="form-control" id="telefono" placeholder="Ingresa tu número de contacto">
+                                <input type="tel" class="form-control" id="telefono"required placeholder="Ingresa tu número de contacto">
                                 </div>
                             <div class="form-group">
                             <label for="mensaje">Consulta:</label>
                             <textarea class="form-control" id="mensaje" rows="3"></textarea>
                             </div>
-                        <button type="submit" class="btn btn-primary">Enviar</button>
+                        <button type="submit" class="btn btn-outline-primary">Enviar</button>
+                        <button type="submit" class="btn btn-outline-primary">Limpiar</button>
                         </form>
 
                     </div>
-                    <div class="col col-md-6">
-                        <h2 class="p"> Encontrarnos en :</h2>
+                    <div class="col col-md-6 ">
+                        <h2 class="p animate__animated animate__fadeInDown animate__slower  mt-2"> 
+                            Encontrarnos en :
+                        </h2>
                         <br>
                         <br>
                         <iframe style="margin: 0 auto; display: block; border: 3px ; border-radius: 10px 10px 10px 10px; padding: 10px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2941.3505030526917!2d-71.43842409999999!3d-42.5053589!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x961c693a7fe40971%3A0x47fdd3448e176062!2sCentro%20m%C3%A9dico-%20CreceR-%20Cholila!5e0!3m2!1ses-419!2sar!4v1676918348643!5m2!1ses-419!2sar" width="600" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -92,7 +101,7 @@
                 </section>
 
             </main>
-            <footer class="footer" >
+            <footer class="footer color-fondo-header-footer text-white" >
                 <p >Derechos revervados 2021</p>
                 <a href="https://m.facebook.com/profile.php?id=100083352640582&_rdr" target="_blank">
                     <img src="../assets/img/bxl-facebook.svg" alt="Logo de Facebook">

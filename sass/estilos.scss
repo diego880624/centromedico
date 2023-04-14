@@ -1,0 +1,16 @@
+@import"variables.scss";
+@import"reset.scss";
+@import"utilidades.scss";
+@import"font.scss";
+@import"footer.scss";
+@import"color-header-footer.scss";
+@import"colorfondo-main.scss";
+@import"main.scss";
+@import"media-screen.scss";
+
+.blur {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: blur(5px);
+}

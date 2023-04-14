@@ -1,0 +1,16 @@
+@font-face { 
+    font-family: "Mystery Quest"; 
+    src: url("./fuentes/roboto.ttf"); 
+} 
+/*clase titulos y sub titulos*/
+
+h1
+{
+    font-family: "Mystery Quest",italic;
+    text-align: $justify-texto;
+}
+h2
+{
+    font-family: "Mystery Quest",bolddltlic;
+    text-align:$justify-texto;
+}

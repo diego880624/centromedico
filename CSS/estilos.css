@@ -9,7 +9,7 @@ box-sizing:border-box;
     src: url("./fuentes/roboto.ttf"); 
 } 
 
-body
+.colorfondo-main
 {
 background-color:#5EBDB4;
 }
